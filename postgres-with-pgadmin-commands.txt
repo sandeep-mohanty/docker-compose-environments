@@ -1,0 +1,11 @@
+---------------PostgresSQL Database Environment-----------------
+
+Normal Mode
+------------
+docker-compose -f postgres-with-pgadmin.yml up
+docker-compose -f postgres-with-pgadmin.yml down
+
+Detached Mode
+-------------
+docker-compose -f postgres-with-pgadmin.yml up -d
+docker-compose -f postgres-with-pgadmin.yml down 
